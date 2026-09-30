@@ -20,7 +20,7 @@ func BuildCourseWelcome(courseName string) string {
 	return fmt.Sprintf("Курс: %s", courseName)
 }
 
-// BuildLessonTitle возвращает название первого урока.
+// BuildLessonTitle возвращает название первого урока
 //
 // Ожидаемый формат:
 // "Урок 1: {lessonName}"
